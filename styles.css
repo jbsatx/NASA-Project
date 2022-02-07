@@ -1,3 +1,49 @@
 body {
-    background-color: chartreuse;
+    background-color: rgb(135, 211, 135);
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+div >.main-container {
+    border: 1px solid red;
+
+} 
+.body{
+    display: flex;
+    flex-direction: column;
+}
+.main{
+    height: 600px;
+    text-align: center;
+    font-size: 100px;
+    background-image: url(NASAmilky-way-2695569__480.jpeg)
+    
+}
+.bottomBox{
+    border-radius: ;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around;
+}
+.socialMedia{
+    width: 270px;
+    height: 324;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.officeInfo{
+    width: 270px;
+    height: 324;
+    padding: 10px;
+    text-align: center;
+    
+}
+.contactUs{
+    width: 270px;
+    height: 324;
+    padding: 10px;
+    text-align: center;
 }
